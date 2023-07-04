@@ -14,7 +14,6 @@ import {store} from "../../constant/store";
 import {ORDER_ORDER, ORDER_RESULT, OrderPlaceGoodsBean} from "../../network/api/order";
 import {post} from "../../util/http";
 
-
 const Home: React.FC = () => {
 
 
@@ -29,11 +28,11 @@ const Home: React.FC = () => {
 
     // 捡漏
     const [pickupEnable, setPickupEnable] = React.useState<boolean>(false);
-    const [pickupTimer, setPickupTimer] = React.useState<number>(0);
+    const [pickupTimer, setPickupTimer] = React.useState<any>(0);
 
 
     // 定时购票
-    const [buyTimer, setBuyTimer] = React.useState<number>(0);
+    const [buyTimer, setBuyTimer] = React.useState<any>(0);
     const [buyTimerEnable, setBuyTimerEnable] = React.useState<boolean>(false);
 
     const [form] = useForm()
