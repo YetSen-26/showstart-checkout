@@ -1,5 +1,5 @@
 
-# ⚠️ 据用户反馈，秀动APP已经更新，目前软件可能不可用
+# ⚠️ 23.9.15更新，可以适用于新版秀动app
 
 ----
 
@@ -75,8 +75,6 @@ pnpm tauri build
 如出现奇奇怪怪的bug，问题，欢迎反馈
 
 如果觉得对你有用的话 也可以打赏一下
-
-<img src="https://user-images.githubusercontent.com/35883111/179758068-b3d3d675-2471-4695-80df-7d24512ea760.jpg" width="400px">
 
 ## 由 JetBrains 赞助
 
